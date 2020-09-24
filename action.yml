@@ -1,0 +1,7 @@
+name: "CDN Asset Linking"
+description: "GitHub Action to update URLs from local deployment to CDN assets"
+author: 'nebula-dev'
+runs:
+  using: 'docker'
+  image: 'docker://frolvlad/alpine-bash:latest'
+  entrypoint: 'entrypoint.sh'
